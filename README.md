@@ -32,6 +32,12 @@ Stateful workflow system for coaching-style progression and operator-friendly va
 
 Shows: persisted state, rollback, audit scripts, routine progression, local validation.
 
+### [fixera-web-system](https://github.com/gregock/fixera-web-system)
+
+Public-safe edition of the Fixera.net web system.
+
+Shows: bilingual site structure, SEO hygiene, clean URLs, sitemap/hreflang automation, and validation tooling.
+
 ## Supporting Proof
 
 ### [local-lead-qualification-engine](https://github.com/gregock/local-lead-qualification-engine)
