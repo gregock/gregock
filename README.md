@@ -46,6 +46,12 @@ Public-safe lead qualification workflow built with synthetic examples.
 
 Shows: deterministic filtering, SQLite persistence, human review, event-based handoff, acquisition-support tooling.
 
+### [rental-decision-radar](https://github.com/gregock/rental-decision-radar)
+
+Public-safe portfolio edition of a local-first rental decision-support system.
+
+Shows: SQLite-backed state, queue ingestion, explainable scoring, profile-aware matching, notification boundaries, public/private boundary discipline.
+
 ## Working Principles
 
 - Start from the operational problem, not the technology stack
