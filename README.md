@@ -32,7 +32,7 @@ Demonstrates JavaScript and Node.js tooling, automated builds, EN/DA parity, sit
 
 Python and SQLite decision-support system for ingesting, parsing, scoring, and reviewing rental opportunities.
 
-Demonstrates queue-based processing, persistent state, explainable scoring, profile-aware matching, audit tools, and regression tests. The public portfolio edition is still being prepared.
+Demonstrates queue-based processing, persistent state, explainable scoring, profile-aware matching, audit tools, regression tests, a deterministic offline demo, and automated CI validation.
 
 ## Architecture and System Design
 
