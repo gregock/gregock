@@ -46,7 +46,7 @@ Public-safe architecture case study for evidence-aware AI-assisted workflows, fa
 
 ### [Stateful Coaching Workflow](https://github.com/gregock/stateful-coaching-workflow)
 
-Architecture case study for persisted progression, rollback, audit scripts, and operator-friendly validation.
+Public-safe architecture case study documenting sequence-driven progression, persisted-state design, audit-preserving reverts, and fail-closed workflow boundaries.
 
 ## How I Use AI
 
