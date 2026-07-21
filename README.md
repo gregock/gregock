@@ -1,68 +1,69 @@
 # Gregorio Escolá
 
-Applied Systems Engineer building operations systems, internal tools, and human-reviewed automation for real business workflows.
+Applied Systems Engineer building practical operations systems, internal tools, and automation through AI-assisted development.
 
-I work on practical systems where information is scattered across chats, notes, spreadsheets, websites, and local tools. The goal is to turn that work into clearer workflows with structured state, audit-friendly records, deterministic checks, and human review where decisions matter.
+I learned software development by solving real operational problems rather than through a traditional engineering path. I use AI as a development partner to explore, implement, test, document, and improve systems. I remain responsible for framing the problem, defining the workflow, validating the output, and operating what I build.
+
+My background combines law, business operations, customer-facing work, and system building. Most projects here started from workflows I encountered directly while running or supporting real operations.
 
 ## What I Build
 
-- Operations systems that make jobs, tasks, documents, and decisions easier to track
-- Internal tools for small-business workflows, acquisition support, and execution
-- Local-first automation that reduces repeated manual work without hiding the process
-- Human-reviewed workflows where automation prepares evidence, but people keep control
-- SQLite-backed systems that show state, validation, rollback, and operational boundaries
+- Database-backed systems for operational workflows and persistent state
+- Internal tools that reduce manual coordination and make decisions easier to review
+- AI-assisted automation with explicit validation and human approval boundaries
+- Decision-support systems with explainable rules, scoring, and audit records
+- Production web systems with testing, validation, and operational safeguards
 
-## Pinned Proof
+## Selected Implementations
 
-### [fixera-operations-core](https://github.com/gregock/fixera-operations-core)
+### [Local Lead Qualification Engine](https://github.com/gregock/local-lead-qualification-engine)
 
-Database-first operations backend for a service business portfolio edition.
+Runnable Python, SQLite, and Streamlit workflow for discovering, filtering, scoring, and reviewing business candidates.
 
-Shows: operational data modeling, job workflow structure, auditability, public/private boundary discipline.
+Demonstrates deterministic qualification, domain deduplication, persistent state, automated tests, audit trails, and human-reviewed handoff.
 
-### [human-reviewed-agent-runtime](https://github.com/gregock/human-reviewed-agent-runtime)
+### [Fixera Web System](https://github.com/gregock/fixera-web-system)
 
-Human-reviewed agent runtime architecture derived from local orchestration work.
+Public-safe edition of the bilingual production website I built and maintain for Fixera.
 
-Shows: bounded autonomy, evidence gates, stateful execution, manual approval boundaries.
+Demonstrates JavaScript and Node.js tooling, automated builds, EN/DA parity, sitemap and hreflang generation, SEO validation, browser testing, and production-oriented verification.
 
-### [stateful-coaching-workflow](https://github.com/gregock/stateful-coaching-workflow)
+### [Rental Decision Radar](https://github.com/gregock/rental-decision-radar)
 
-Stateful workflow system for coaching-style progression and operator-friendly validation.
+Python and SQLite decision-support system for ingesting, parsing, scoring, and reviewing rental opportunities.
 
-Shows: persisted state, rollback, audit scripts, routine progression, local validation.
+Demonstrates queue-based processing, persistent state, explainable scoring, profile-aware matching, audit tools, and regression tests. The public portfolio edition is still being prepared.
 
-### [fixera-web-system](https://github.com/gregock/fixera-web-system)
+## Architecture and System Design
 
-Public-safe edition of the Fixera.net web system.
+### [Fixera Operations Core](https://github.com/gregock/fixera-operations-core)
 
-Shows: bilingual site structure, SEO hygiene, clean URLs, sitemap/hreflang automation, and validation tooling.
+Public-safe case study of a database-first operations backend for managing jobs, tasks, clients, documents, pricing, and operational history.
 
-## Supporting Proof
+### [Human-Reviewed Agent Runtime](https://github.com/gregock/human-reviewed-agent-runtime)
 
-### [local-lead-qualification-engine](https://github.com/gregock/local-lead-qualification-engine)
+Architecture case study for bounded AI-assisted execution with evidence gates, persistent state, and explicit approval boundaries.
 
-Public-safe lead qualification workflow built with synthetic examples.
+### [Stateful Coaching Workflow](https://github.com/gregock/stateful-coaching-workflow)
 
-Shows: deterministic filtering, SQLite persistence, human review, event-based handoff, acquisition-support tooling.
+Architecture case study for persisted progression, rollback, audit scripts, and operator-friendly validation.
 
-### [rental-decision-radar](https://github.com/gregock/rental-decision-radar)
+## How I Use AI
 
-Public-safe portfolio edition of a local-first rental decision-support system.
+AI expands what I can build, but it does not replace ownership or judgment.
 
-Shows: SQLite-backed state, queue ingestion, explainable scoring, profile-aware matching, notification boundaries, public/private boundary discipline.
+I use it throughout the development process for research, architecture exploration, implementation, debugging, testing, documentation, and iteration. I verify the resulting systems through tests, deterministic checks, inspectable state, and real operational use.
 
-## Working Principles
+## Tools and Technologies
 
-- Start from the operational problem, not the technology stack
-- Keep private business data out of public portfolio repos
-- Prefer inspectable workflows over black-box automation
-- Use automation to prepare, filter, validate, and record decisions
-- Keep final judgment human-controlled when the action has real-world consequences
-- Document current status honestly: prototype, portfolio edition, source context, or production-facing work
+Python, SQLite, Streamlit, JavaScript, Node.js, HTML, CSS, Tailwind CSS, Playwright, Git, automated testing, workflow design, and AI-assisted development.
 
-## Profile Focus
+## Public Portfolio Boundaries
 
-This profile is focused on applied systems engineering: operations systems, internal tools, workflow automation, decision support, and human-reviewed AI workflows.
+Some repositories are public-safe editions of private operational systems. They preserve the relevant architecture, code, tests, synthetic examples, and engineering decisions while excluding customer data, credentials, production databases, and private business records.
 
-The pinned repositories are selected to show practical system design rather than disconnected code samples.
+## Current Focus
+
+I am interested in applied systems, technical operations, implementation, internal tools, business systems, and AI-enabled workflow automation roles.
+
+Based in Copenhagen, Denmark.
