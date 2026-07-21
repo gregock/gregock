@@ -42,7 +42,7 @@ Public-safe case study of a database-first operations backend for managing jobs,
 
 ### [Human-Reviewed Agent Runtime](https://github.com/gregock/human-reviewed-agent-runtime)
 
-Architecture case study for bounded AI-assisted execution with evidence gates, persistent state, and explicit approval boundaries.
+Public-safe architecture case study for evidence-aware AI-assisted workflows, fail-closed routing, and explicit human-review boundaries.
 
 ### [Stateful Coaching Workflow](https://github.com/gregock/stateful-coaching-workflow)
 
