@@ -38,7 +38,7 @@ Demonstrates queue-based processing, persistent state, explainable scoring, prof
 
 ### [Fixera Operations Core](https://github.com/gregock/fixera-operations-core)
 
-Public-safe case study of a database-first operations backend for managing jobs, tasks, clients, documents, pricing, and operational history.
+Public-safe architecture case study of a database-first operations system for job lifecycle, records, reporting, and human review.
 
 ### [Human-Reviewed Agent Runtime](https://github.com/gregock/human-reviewed-agent-runtime)
 
@@ -60,7 +60,9 @@ Python, SQLite, Streamlit, JavaScript, Node.js, HTML, CSS, Tailwind CSS, Playwri
 
 ## Public Portfolio Boundaries
 
-Some repositories are public-safe editions of private operational systems. They preserve the relevant architecture, code, tests, synthetic examples, and engineering decisions while excluding customer data, credentials, production databases, and private business records.
+Runnable public implementations contain public code, tests, synthetic examples or offline demos, and validation workflows where applicable.
+
+Architecture and system-design case studies document architecture, boundaries, workflows, decisions, evidence, and validation of the public package. They do not publish the private production runtime, backend, customer data, or operational records.
 
 ## Current Focus
 
